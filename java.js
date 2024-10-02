@@ -55,4 +55,16 @@ let result1=90;
 result1 +=num1;
 //100
 console.log(result1);
-
+//JAVASCRIPT ARRAY 
+let name=['ashenafi','henok','abdi','ken'];
+//list array
+console.log(name);
+//get value at specifed position
+console.log(name[2]);
+//to get array length
+console.log(name.length);
+//concar array value
+console.log(name.concat('Tolosa','boki'));
+//array method pop and push
+let result1=name.push('tesfaye');
+console.log(result1);
