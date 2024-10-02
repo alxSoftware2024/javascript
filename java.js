@@ -28,3 +28,15 @@ console.log("The length of the your name is "+fullName.length);
 console.log(fullName.toUpperCase());
 console.log(fullName.toLowerCase());
 console.log(fullName.indexOf('A'));
+//Common String method
+let commonString="ashenafitesfaye@gmail.com";
+//lastIndexOf()
+console.log(commonString.lastIndexOf('g'));
+//slice()
+console.log(commonString.slice(0,8));
+//substr
+console.log(commonString.substr(2,5));
+//replace
+console.log(commonString.replace('f','o'))
+//CharAt
+console.log(commonString.charAt(5));
