@@ -68,3 +68,10 @@ console.log(name.concat('Tolosa','boki'));
 //array method pop and push
 let result1=name.push('tesfaye');
 console.log(result1);
+//Javascript Booleans
+let email1="ashenafites@gmail.com";
+check=email1.includes('@gmail');
+console.log(check);
+let namelist=['ashe','ken','dabi'];
+let name_Check=namelist.includes('ashee');
+console.log(name_Check);
