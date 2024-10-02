@@ -8,3 +8,10 @@ const name=["ASHENAFI","KENBON","FIKRU","KENA"];
 for(let j=0; j<name.length;j++){
     console.log(name[j]);
 }
+//while loop
+let j=0;
+while(j<5){
+    console.log("in loop"+" "+j);
+    j++;
+}
+console.log("loop finshed");
