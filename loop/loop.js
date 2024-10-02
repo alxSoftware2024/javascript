@@ -15,3 +15,10 @@ while(j<5){
     j++;
 }
 console.log("loop finshed");
+//do while 
+let k=0;
+do
+{
+console.log("in loop even if condition false");
+k++
+}while(k>5);
