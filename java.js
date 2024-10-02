@@ -40,3 +40,19 @@ console.log(commonString.substr(2,5));
 console.log(commonString.replace('f','o'))
 //CharAt
 console.log(commonString.charAt(5));
+//javascript Number
+let num1=10;
+let num2=20;
+let r=2;
+//10
+console.log(num1+num2);
+//4
+console.log(r**2);
+++r;
+//3
+console.log(r);
+let result1=90;
+result1 +=num1;
+//100
+console.log(result1);
+
