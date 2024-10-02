@@ -1,5 +1,4 @@
-//JAVASCRIPT VARIABLE
-let age=30;
+//JAVASCRIPT VARIABlet age=30;
 let year=2020;
 console.log(age,year);
 // variable create by const keyword never change
@@ -75,3 +74,9 @@ console.log(check);
 let namelist=['ashe','ken','dabi'];
 let name_Check=namelist.includes('ashee');
 console.log(name_Check);
+//JAVASCRIPT COMPARISION
+let age_list=25;
+//true because of javascript data type conversion!!!!
+console.log(age_list=='25');
+//false data type nit the same
+console.log(age_list==='25');
