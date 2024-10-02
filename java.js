@@ -1,4 +1,5 @@
-//JAVASCRIPT VARIABlet age=30;
+//JAVASCRIPT VARIABLE
+let age=30;
 let year=2020;
 console.log(age,year);
 // variable create by const keyword never change
@@ -65,8 +66,8 @@ console.log(name.length);
 //concar array value
 console.log(name.concat('Tolosa','boki'));
 //array method pop and push
-let result1=name.push('tesfaye');
-console.log(result1);
+let result2=name.push('tesfaye');
+console.log(result2);
 //Javascript Booleans
 let email1="ashenafites@gmail.com";
 check=email1.includes('@gmail');
@@ -80,3 +81,10 @@ let age_list=25;
 console.log(age_list=='25');
 //false data type nit the same
 console.log(age_list==='25');
+//TYPE CONVERSION
+let sumNumber='100';
+//Result 1001 because concanted
+console.log(sumNumber+1);
+//convert string to number output 101
+sumNumber=Number(sumNumber);
+console.log(sumNumber+1);
