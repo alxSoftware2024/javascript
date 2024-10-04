@@ -30,10 +30,18 @@ console.log(para4[0]);
 
 //update inner text
 const para5=document.querySelector('p');
-para5.innerText="Javascript is great";*/
+para5.innerText="Javascript is great";
 //Append inner text 
 const para6=document.querySelectorAll('p');
 para6.forEach(par1 =>{
     console.log(par1.innerText);
     par1.innerText+="New text";
+})*/
+//InnerHTML
+const para7=document.querySelector('.content');
+console.log(para7.innerHTML);
+para7.innerHTML="<h2>This is heading two</h2>";
+const people=['ashenafi','fira','kiya'];
+people.forEach(person=>{
+    para7.innerHTML+=`<p>${person}</p>`;
 })
