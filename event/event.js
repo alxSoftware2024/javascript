@@ -14,3 +14,7 @@ para3.forEach(pa=>{
 //select class of error
 const error=document.querySelectorAll('.error');
 console.log(error);
+
+//Get element by ID
+const title=document.getElementById('page-title');
+console.log(title);
