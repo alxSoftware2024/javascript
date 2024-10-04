@@ -27,7 +27,13 @@ console.log(getbyclass);
 const para4=document.getElementsByTagName('p');
 console.log(para4);
 console.log(para4[0]);
-*/
+
 //update inner text
 const para5=document.querySelector('p');
-para5.innerText="Javascript is great";
+para5.innerText="Javascript is great";*/
+//Append inner text 
+const para6=document.querySelectorAll('p');
+para6.forEach(par1 =>{
+    console.log(par1.innerText);
+    par1.innerText+="New text";
+})
