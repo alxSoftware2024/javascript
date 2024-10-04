@@ -22,8 +22,12 @@ console.log(title);
 //GET element by class name
 const getbyclass=document.getElementsByClassName('error');
 console.log(getbyclass);
-*/
+
 //Get element by tag name
 const para4=document.getElementsByTagName('p');
 console.log(para4);
 console.log(para4[0]);
+*/
+//update inner text
+const para5=document.querySelector('p');
+para5.innerText="Javascript is great";
