@@ -36,7 +36,7 @@ const para6=document.querySelectorAll('p');
 para6.forEach(par1 =>{
     console.log(par1.innerText);
     par1.innerText+="New text";
-})*/
+})
 //InnerHTML
 const para7=document.querySelector('.content');
 console.log(para7.innerHTML);
@@ -44,4 +44,8 @@ para7.innerHTML="<h2>This is heading two</h2>";
 const people=['ashenafi','fira','kiya'];
 people.forEach(person=>{
     para7.innerHTML+=`<p>${person}</p>`;
-})
+})*/
+//get and set Attribute
+const get1=document.querySelector('p');
+console.log(get1.getAttribute('class'));
+get1.setArrribute('class','success');
