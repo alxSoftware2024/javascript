@@ -44,8 +44,18 @@ para7.innerHTML="<h2>This is heading two</h2>";
 const people=['ashenafi','fira','kiya'];
 people.forEach(person=>{
     para7.innerHTML+=`<p>${person}</p>`;
-})*/
+})
 //get and set Attribute
 const get1=document.querySelector('p');
 console.log(get1.getAttribute('class'));
-get1.setArrribute('class','success');
+get1.setArrribute('class','success');*/
+const geth1=document.querySelector('h1');
+console.log(geth1);
+//overide exits property
+//geth1.setAttribute('style','margin-left:50px');
+//add style  from javascript without overide
+geth1.style.fontSize='70px';
+geth1.style.margin='50px';
+//To delete style 
+geth1.style.margin='';
+geth1.style.color='';
