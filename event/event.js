@@ -48,7 +48,7 @@ people.forEach(person=>{
 //get and set Attribute
 const get1=document.querySelector('p');
 console.log(get1.getAttribute('class'));
-get1.setArrribute('class','success');*/
+get1.setArrribute('class','success');
 const geth1=document.querySelector('h1');
 console.log(geth1);
 //overide exits property
@@ -58,4 +58,8 @@ geth1.style.fontSize='70px';
 geth1.style.margin='50px';
 //To delete style 
 geth1.style.margin='';
-geth1.style.color='';
+geth1.style.color='';*/
+const getClass=document.querySelector('p');
+console.log(getClass.classList);
+getClass.classList.add('success');
+getClass.classList.remove('success');
