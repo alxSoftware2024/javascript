@@ -58,8 +58,21 @@ geth1.style.fontSize='70px';
 geth1.style.margin='50px';
 //To delete style 
 geth1.style.margin='';
-geth1.style.color='';*/
+geth1.style.color='';
 const getClass=document.querySelector('p');
 console.log(getClass.classList);
 getClass.classList.add('success');
-getClass.classList.remove('success');
+getClass.classList.remove('success');*/
+/*Add error class to paragraph if it include error text and 
+add success class if it include success text on it*/
+const errorSuccess=document.querySelectorAll('p');
+errorSuccess.forEach(check1=>{
+if(check1.innerText.includes('error'))
+{check1.classList.add('error');
+
+}
+if(check1.innerText.includes('success'))
+{
+    check1.classList.add('success');
+}
+});
