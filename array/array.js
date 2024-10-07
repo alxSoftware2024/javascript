@@ -4,8 +4,8 @@ let fruit=['banan','orange','mango','apple'];
 //fruit.push('coconat');
 //delete the last element
 fruit.pop();
-console.log(fruit);
-console.log(fruit[0]);
-console.log(fruit[1]);
-console.log(fruit[2]);
-console.log(fruit[3]);
+for(let fruits of fruit){
+    console.log(fruits);
+}
+//get length of array content
+console.log(fruit.length);
