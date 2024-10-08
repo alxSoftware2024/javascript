@@ -23,4 +23,6 @@ resolve("You Take out Trash");
 },500);
     });
 }
-walkdog().then(value=>console.log(value));
+walkdog().then(value=>{console.log(value); return cleankitchen()})
+.then(value=>{console.log(value); return takeouttrash()})
+.then(value=>console.log(value));
