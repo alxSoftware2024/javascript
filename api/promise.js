@@ -23,6 +23,16 @@ resolve("You Take out Trash");
 },500);
     });
 }
-walkdog().then(value=>{console.log(value); return cleankitchen()})
+/*walkdog().then(value=>{console.log(value); return cleankitchen()})
 .then(value=>{console.log(value); return takeouttrash()})
-.then(value=>console.log(value));
+.then(value=>console.log(value));*/
+async function seeresult(){
+    const walkdog1=await walkdog();
+     console.log(walkdog1);
+     const takeouttrash1=await takeouttrash();
+     console.log(takeouttrash1);
+     const cleankitchen1=await cleankitchen();
+     console.log(cleankitchen1);
+
+}
+seeresult();
