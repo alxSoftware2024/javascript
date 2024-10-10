@@ -25,4 +25,15 @@ const form = document.getElementById('registrationForm');
      else {
         emailerror.textContent = '';
       }
+      //count text in textArea
+const message=document.getElementById('message').value;
+const countword=message.trim().split(/\s+/).length;
+if(countword<3)
+{
+    e.preventDefault(); 
+    messagerror.textContent = 'Message not less than 3 word.'; 
+}
+else{
+    messagerror.textContent = ""; 
+}
      });
