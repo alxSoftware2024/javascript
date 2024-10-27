@@ -9,3 +9,4 @@ for(let fruits of fruit){
 }
 //get length of array content
 console.log(fruit.length);
+//Array methods and empty slots
